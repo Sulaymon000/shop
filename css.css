@@ -1,0 +1,363 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6464643f;
+}
+.big{
+   
+    width: 1500px;
+    margin: 0 auto; 
+    margin-top: 200px;
+    background-color: white;
+    margin-bottom: 200px;
+}
+.container{
+    width: 1346px;
+    margin: 0 auto;
+}
+.wrapp-img{
+    
+    width:151px ;
+}
+.nav{
+    padding: 57px 0;
+}
+.nav__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__list-wrapper{
+    display: flex;
+    gap: 56px;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    gap: 36px;
+    list-style: none;
+    align-items: center ;
+}
+a {
+    text-decoration: inherit;
+    color: inherit;
+
+}
+.nav__list__itm{
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav__list__itm:hover{
+color: #646464;
+ 
+}
+.btn{
+background-color: #CAA892;
+padding: 5px 18px;
+color: white;
+border: none;
+background: #37806B;
+font-size: 18px;
+padding: 12px 28px;
+border-radius: 20px 0 20px 0;
+
+}
+.btn:hover{
+    color: rgb(255, 0, 0);
+}
+.nav__sign-up{
+    background-color: #CAA892;
+padding: 5px 18px;
+border-radius: 15px 0 15px 0;
+color: white;
+font-weight: 700;
+}
+.nav__sign-up:hover{
+    color: #f16000 ;
+}
+.hero{
+    margin-top: 43px;
+}
+.hero__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__sup-title{
+font-size: 20px;
+font-weight: 700;
+color: #646464;
+
+}
+.hero__title{
+font-size: 72px;
+font-weight: 600;
+color: #212121;
+line-height: 78px;
+margin-top: 12px;
+}
+.hero__data{
+font-size: 18px;
+line-height: 30px;
+margin-top: 23px;
+}
+.hero__btn{
+    margin-top: 46px;
+}
+.hero__imges{
+    border-radius: 150px 0 150px 0;
+}
+.our-services__wrapper{
+    display: flex;
+    gap: 37px;
+    margin-top: 50px;
+}
+.our-services__container{
+    margin-top: 100px;
+}
+.card{
+    border-radius: 60px 0 60px 0;
+    box-shadow: 0px 8px 20px 0px #00000024;
+    padding: 39px 59px;
+    transition: 0.3s ease-in-out;
+}
+.card:hover{
+    background: #CAA892;
+    color: white;
+}
+.card__info{
+    margin-top: 12px;   
+}
+.our-services__title{
+font-size: 48px;
+font-weight: 500;
+line-height: 78px;
+
+}
+.our-services__sub-title{
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+color: #646464;
+
+
+}
+.Abaut-us__wrapper{
+    margin-top: 230px;
+    display: flex;
+}
+.Abaut-us__imeges{
+    width: 80%;
+    border-radius: 150px 0 150px 0;
+}
+
+.Abaut-us__span{
+font-size: 20px;
+line-height: 30px;
+color: #646464;
+}
+.Abaut-us__h3{
+    font-size: 48px;
+    line-height: 57px;
+}
+.Abaut-us__data{
+    font-size: 18px;
+    line-height: 30px;
+    color: #646464;
+    margin-top: 20px;
+}
+.Abaut-us__info{
+    margin-top: 40px;
+}
+.Abaut-us__btn{
+    margin-top: 46px;
+}
+.Market__wrapper{
+    display: flex;
+    margin-top: 220px;
+    gap: 154px;
+}
+.Market__date{
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.Market__title{
+font-size: 50px;
+font-weight: 500;
+line-height: 65px;
+
+}
+.Market__clas{
+    margin-top: 200px;
+}
+.Market__date-title{
+    margin-top: 140px;
+}
+.Market__imeges{
+    border-radius: 120px 0 120px 0;
+}
+.Market__btn{
+    margin-top: 35px;
+}
+.TESTIMONIALS__container{
+    margin-top: 180px;
+}
+.TESTIMONIALS__title {
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+color: #646464;
+
+}
+.TESTIMONIALS__title-h3{
+text-align: center;
+font-size: 48px;
+font-weight: 500;
+}
+.LETEST-NEWS__wrapper{
+    display: flex;
+    gap: 156px;
+    margin-top: 83px;
+}
+.LETEST__container{
+    background-color: #dbdbdb47;
+}
+.news-with{
+    width: 90%;
+    border-radius: 120px 0 120px 0;
+    width: 550px;
+
+}
+.news__wrap{
+    text-align: center;
+}
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    
+}
+.title_bg{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.data{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 50px;
+}
+.info{
+    font-size: 18px;
+    font-weight: 400;
+    color: #646464;
+    margin-top: 15px;
+
+}
+.new__btn{
+    margin-top: 45px;
+}
+.SUBSCRIBE__container{
+    margin-top: 140px;
+}
+.wrapper{
+    width: 772px;
+    margin: 0 auto;
+}
+.SUBSCRIBE__h2{
+text-align: center;
+font-size: 48px;
+font-weight: 500;
+line-height: 28px;
+
+}
+hr{
+   
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 60%;
+    border: 1px solid #C4C4C4
+    
+}
+.SUBSCRIBE__title{
+    text-align: center;
+    margin-top: 35px;
+    color: #646464;
+
+}
+.buutton{
+    width: 600px;
+display: flex;
+margin: 0 auto;
+margin-top: 28px;
+
+
+}
+input{
+    width: 400px;
+    padding: 18px;
+background: #EEEEEE;
+border-radius: 8px 0 0 0 ;
+border: none;
+outline: none;
+
+}
+.button__sub{
+    border-radius: 0 0 10px 0;
+    padding: 18px;
+    width: 200px;
+    background: #37806B;
+    color: white;
+    border: none;
+   
+}
+.button__sub:hover{
+    color: rgb(249, 4, 4);
+}
+.logo__img{
+width: 120px;
+height: 47px;
+
+}
+.container__logo{
+    margin-top: 140px;
+}
+.wrapper_footer{
+    display: flex;
+    gap: 105px;
+
+}
+.fecbook{
+    width: 35px; 
+    padding: 6px; 
+    background: #D5D5D5;
+     border-radius: 50%;
+     margin-top: 18px;
+}
+.fecbook:hover{
+    background: #37806B;
+
+}
+.width__b{
+    font-size: 20px;
+}
+.color{
+    color: #646464;
+    font-size: 15px;
+}
+.footer__hr{
+    width: 100%;
+}
+.oxiri{
+    padding: 15px;
+    text-align: center;
+}
